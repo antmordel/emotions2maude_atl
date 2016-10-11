@@ -104,7 +104,6 @@ public class BehOcl2Maude {
 		properties = new Properties();
 		properties.load(getFileURL("BehOcl2Maude.properties").openStream());
 		EPackage.Registry.INSTANCE.put(getMetamodelUri("ATL"), org.eclipse.m2m.atl.common.ATL.ATLPackage.eINSTANCE);
-		EPackage.Registry.INSTANCE.put(getMetamodelUri("Behavior"), behavior.BehaviorPackage.eINSTANCE);
 		Resource.Factory.Registry.INSTANCE.getExtensionToFactoryMap().put("ecore", new EcoreResourceFactoryImpl());
 	}
 	
@@ -122,7 +121,6 @@ public class BehOcl2Maude {
 	 */
 	public void loadModels(String inModelPath, String inatlModelPath) throws ATLCoreException {
 		ModelFactory factory = new EMFModelFactory();
-		
 		IInjector injector = new EMFInjector();
 	 	IReferenceModel maudeMetamodel = factory.newReferenceModel();
 		injector.inject(maudeMetamodel, getMetamodelUri("Maude"));
@@ -173,7 +171,6 @@ public class BehOcl2Maude {
 		launcher.addInModel(inModel, "IN", "Behavior");
 		launcher.addInModel(inatlModel, "INATL", "ATL");
 		launcher.addOutModel(outModel, "OUT", "Maude");
-		
 		return launcher.launch("run", monitor, launcherOptions, (Object[]) getModulesList());
 	}
 	
