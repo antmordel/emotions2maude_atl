@@ -115,7 +115,9 @@
           <args xsi:type="Maude:Constant" type="/2/@els.0" op="@MGBehavior@"/>
           <args xsi:type="Maude:RecTerm" type="/2/@els.18" op="__">
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.37" op="AtomicRule@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.21" op="_#_">
                 <args xsi:type="Maude:RecTerm" type="/2/@els.6" op="_:_">
@@ -141,7 +143,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.37" op="AtomicRule@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.21" op="_#_">
                 <args xsi:type="Maude:RecTerm" type="/2/@els.6" op="_:_">
@@ -167,7 +171,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.37" op="AtomicRule@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.21" op="_#_">
                 <args xsi:type="Maude:RecTerm" type="/2/@els.6" op="_:_">
@@ -193,7 +199,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.37" op="AtomicRule@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.21" op="_#_">
                 <args xsi:type="Maude:RecTerm" type="/2/@els.6" op="_:_">
@@ -219,7 +227,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.37" op="AtomicRule@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.21" op="_#_">
                 <args xsi:type="Maude:RecTerm" type="/2/@els.6" op="_:_">
@@ -245,7 +255,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.37" op="AtomicRule@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.21" op="_#_">
                 <args xsi:type="Maude:RecTerm" type="/2/@els.6" op="_:_">
@@ -271,7 +283,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Variable" type="/2/@els.40" name="'Rule0"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.37" op="AtomicRule@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.21" op="_#_">
                 <args xsi:type="Maude:RecTerm" type="/2/@els.6" op="_:_">
@@ -336,7 +350,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -344,7 +360,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -566,7 +584,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -574,7 +594,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -664,7 +686,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -675,7 +699,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -831,7 +857,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -839,7 +867,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -998,7 +1028,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -1006,7 +1038,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -1214,7 +1248,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -1226,7 +1262,9 @@
               </args>
               <args xsi:type="Maude:Variable" type="/2/@els.18" name="OBJSET@"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -1350,7 +1388,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -1358,7 +1398,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -1539,7 +1581,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -1547,7 +1591,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -1597,7 +1643,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -1605,7 +1653,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -1827,7 +1877,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -1835,7 +1887,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -1925,7 +1979,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -1936,7 +1992,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2092,7 +2150,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2100,7 +2160,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2259,7 +2321,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2267,7 +2331,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2475,7 +2541,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2487,7 +2555,9 @@
               </args>
               <args xsi:type="Maude:Variable" type="/2/@els.18" name="OBJSET@"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2611,7 +2681,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2619,7 +2691,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2800,7 +2874,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2808,7 +2884,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2858,7 +2936,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2866,7 +2946,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2976,7 +3058,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -2984,7 +3068,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3071,7 +3157,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3082,7 +3170,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3135,12 +3225,12 @@
                 <args xsi:type="Maude:Variable" type="/2/@els.70" name="CONVEYOR@DEVSMM@c@CLASS"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.21" op="_#_">
                   <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
-                    <args xsi:type="Maude:Constant" type="/2/@els.4" op="outParts@Conveyor@devsmm"/>
-                    <args xsi:type="Maude:Variable" type="/2/@els.40" name="OUTPARTS@c@ATT"/>
-                  </args>
-                  <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                     <args xsi:type="Maude:Constant" type="/2/@els.4" op="parts@Container@devsmm"/>
                     <args xsi:type="Maude:Variable" type="/2/@els.40" name="PARTS@c@ATT"/>
+                  </args>
+                  <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
+                    <args xsi:type="Maude:Constant" type="/2/@els.4" op="outParts@Conveyor@devsmm"/>
+                    <args xsi:type="Maude:Variable" type="/2/@els.40" name="OUTPARTS@c@ATT"/>
                   </args>
                   <args xsi:type="Maude:Variable" type="/2/@els.21" name="c@SFS"/>
                 </args>
@@ -3201,7 +3291,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3209,7 +3301,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3256,12 +3350,12 @@
               <args xsi:type="Maude:Variable" type="/2/@els.70" name="CONVEYOR@DEVSMM@c@CLASS"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.21" op="_#_">
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
-                  <args xsi:type="Maude:Constant" type="/2/@els.4" op="outParts@Conveyor@devsmm"/>
-                  <args xsi:type="Maude:Variable" type="/2/@els.40" name="OUTPARTS@c@ATT"/>
-                </args>
-                <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.4" op="parts@Container@devsmm"/>
                   <args xsi:type="Maude:Variable" type="/2/@els.40" name="PARTS@c@ATT"/>
+                </args>
+                <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
+                  <args xsi:type="Maude:Constant" type="/2/@els.4" op="outParts@Conveyor@devsmm"/>
+                  <args xsi:type="Maude:Variable" type="/2/@els.40" name="OUTPARTS@c@ATT"/>
                 </args>
                 <args xsi:type="Maude:Variable" type="/2/@els.21" name="c@SFS"/>
               </args>
@@ -3322,7 +3416,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3330,7 +3426,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3422,7 +3520,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3434,7 +3534,9 @@
               </args>
               <args xsi:type="Maude:Variable" type="/2/@els.18" name="OBJSET@"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3555,7 +3657,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3563,7 +3667,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3622,7 +3728,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3630,7 +3738,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3705,7 +3815,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -3713,7 +3825,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -4009,7 +4123,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -4017,7 +4133,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -4135,7 +4253,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -4146,7 +4266,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -4368,7 +4490,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -4376,7 +4500,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -4601,7 +4727,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -4609,7 +4737,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -4894,7 +5024,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -4906,7 +5038,9 @@
               </args>
               <args xsi:type="Maude:Variable" type="/2/@els.18" name="OBJSET@"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -5258,7 +5392,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -5266,7 +5402,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -5494,7 +5632,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -5502,7 +5642,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -5551,7 +5693,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -5559,7 +5703,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -5764,7 +5910,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -5772,7 +5920,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -5859,7 +6009,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -5870,7 +6022,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -6033,7 +6187,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -6041,7 +6197,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -6198,7 +6356,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -6206,7 +6366,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -6394,7 +6556,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -6406,7 +6570,9 @@
               </args>
               <args xsi:type="Maude:Variable" type="/2/@els.18" name="OBJSET@"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -6669,7 +6835,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -6677,7 +6845,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -6832,7 +7002,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -6840,7 +7012,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -6915,7 +7089,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -6923,7 +7099,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -7152,7 +7330,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -7160,7 +7340,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -7280,7 +7462,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -7292,7 +7476,9 @@
               </args>
               <args xsi:type="Maude:Variable" type="/2/@els.18" name="OBJSET@"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -7363,7 +7549,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -7371,7 +7559,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -7564,7 +7754,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -7572,7 +7764,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -7606,7 +7800,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -7614,7 +7810,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -7739,7 +7937,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -7747,7 +7947,9 @@
               </args>
             </args>
             <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-              <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              <args xsi:type="Maude:RecTerm" op="oid">
+                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+              </args>
               <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                 <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -8372,7 +8574,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -8384,7 +8588,9 @@
               </args>
               <args xsi:type="Maude:Variable" type="/2/@els.18" name="OBJSET@"/>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -8457,7 +8663,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -8465,7 +8673,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -8500,7 +8710,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'ids@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>
@@ -8508,7 +8720,9 @@
                 </args>
               </args>
               <args xsi:type="Maude:RecTerm" type="/2/@els.2" op="&lt;_:_|_>">
-                <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                <args xsi:type="Maude:RecTerm" op="oid">
+                  <args xsi:type="Maude:Constant" type="/2/@els.12" op="'rdm@"/>
+                </args>
                 <args xsi:type="Maude:Constant" type="/2/@els.32" op="Counter@MGBehavior"/>
                 <args xsi:type="Maude:RecTerm" type="/2/@els.5" op="_:_">
                   <args xsi:type="Maude:Constant" type="/2/@els.3" op="value@Counter@MGBehavior"/>

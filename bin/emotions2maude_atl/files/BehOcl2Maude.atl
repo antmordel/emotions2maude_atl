@@ -1102,7 +1102,11 @@ lazy rule ObjectSimple{
 		rt : Maude!RecTerm(
 			op <- thisModule.objectOperator,
 			type <- thisModule.sortObject,
-			args <- Sequence{id,type,feats}
+			args <- Sequence{oidOperator,type,feats}
+			),
+		oidOperator : Maude!RecTerm (
+			op <- 'oid',
+			args <- id
 			),
 		id : Maude!Variable(
 			name <- '\'Rule'+num.toString(),
@@ -3408,12 +3412,12 @@ lazy rule CreateCounter{
 		counter : Maude!RecTerm(
 			op <- thisModule.objectOperator,
 			type <- thisModule.sortObject,
-			args <- Sequence{oidCounter,cteCounter,argsCounter}
+			args <- Sequence{oidOperator,cteCounter,argsCounter}
 			),
---		oidCounter : Maude!Variable(
---			name <- 'CNT@',---'\'ids@',
---			type <- thisModule.sortOid
---			),
+		oidOperator : Maude!RecTerm (
+			op <- 'oid',
+			args <- oidCounter
+		),
 		oidCounter : Maude!Constant(
 			op <- '\'ids@',
 			type <- thisModule.sortOid
@@ -3463,8 +3467,12 @@ lazy rule CreateRandomCounter{
 		counter : Maude!RecTerm(
 			op <- thisModule.objectOperator,
 			type <- thisModule.sortObject,
-			args <- Sequence{oidCounter,cteCounter,argsCounter}
+			args <- Sequence{oidOperator,cteCounter,argsCounter}
 			),
+		oidOperator : Maude!RecTerm (
+			op <- 'oid',
+			args <- oidCounter
+		),
 		oidCounter : Maude!Constant(
 			op <- '\'rdm@',
 			type <- thisModule.sortOid
