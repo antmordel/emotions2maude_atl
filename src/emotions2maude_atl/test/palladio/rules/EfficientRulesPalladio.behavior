@@ -2,7 +2,7 @@
 <behavior:Behavior xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:behavior="http://www.lcc.uma.es/Behavior/1.0">
   <metamodelGD href="../syntax/ConcreteSyntax.gcs#/"/>
   <rules xsi:type="behavior:AtomicRule" name="OpenWorkloadSpec" lhs="//@rules.0/@patterns.0" rhs="//@rules.0/@patterns.1" maxDuration="0" periodicity="0.0">
-    <vbles name="owRate" type="Int" value="eMotions.parseExp(ow.interArrivalTime_OpenWorkload.specification)"/>
+    <vbles name="owRate" type="Int" value="eMotions.parseExp(ow.interArrivalTime_OpenWorkload.specification, Set{})"/>
     <patterns name="LHS">
       <els xsi:type="behavior:Object" id="start" inLinks="//@rules.0/@patterns.0/@els.7">
         <classGD href="../syntax/ConcreteSyntax.gcs#//@packagesGD.0/@classesGD.42"/>
@@ -471,7 +471,7 @@
     </patterns>
   </rules>
   <rules xsi:type="behavior:AtomicRule" name="DelayUsageModel" lhs="//@rules.9/@patterns.0" rhs="//@rules.9/@patterns.1" maxDuration="spec" minDuration="spec">
-    <vbles name="spec" type="Int" value="eMotions.parseExp(delay.timeSpecification_Delay.specification)"/>
+    <vbles name="spec" type="Int" value="eMotions.parseExp(delay.timeSpecification_Delay.specification, Set{})"/>
     <patterns name="LHS">
       <els xsi:type="behavior:Object" id="delay" outLinks="//@rules.9/@patterns.0/@els.2">
         <classGD href="../syntax/ConcreteSyntax.gcs#//@packagesGD.0/@classesGD.44"/>
@@ -708,7 +708,7 @@
     </patterns>
   </rules>
   <rules xsi:type="behavior:AtomicRule" name="LoopToLoopTokenSEFF" lhs="//@rules.12/@patterns.0" rhs="//@rules.12/@patterns.1" maxDuration="0">
-    <vbles name="iter" type="Int" value="eMotions.parseExp(loop.iterationCount_LoopAction.specification)"/>
+    <vbles name="iter" type="Int" value="1"/>
     <patterns name="LHS">
       <els xsi:type="behavior:Object" id="loop" outLinks="//@rules.12/@patterns.0/@els.2">
         <classGD href="../syntax/ConcreteSyntax.gcs#//@packagesGD.0/@classesGD.111"/>
@@ -1210,7 +1210,7 @@
     </patterns>
   </rules>
   <rules xsi:type="behavior:AtomicRule" name="InternalActionSEFF" lhs="//@rules.22/@patterns.0" rhs="//@rules.22/@patterns.1" maxDuration="rTime" minDuration="rTime">
-    <vbles name="rTime" type="Integer" value="eMotions.parseExp(PRD.specification_ParametericResourceDemand.specification) / eMotions.parseExp(PRS.processingRate_ProcessingResourceSpecification.specification)"/>
+    <vbles name="rTime" type="Integer" value="1"/>
     <patterns name="LHS">
       <els xsi:type="behavior:Object" id="IA" outLinks="//@rules.22/@patterns.0/@els.4 //@rules.22/@patterns.0/@els.10">
         <classGD href="../syntax/ConcreteSyntax.gcs#//@packagesGD.0/@classesGD.124"/>
@@ -1362,7 +1362,7 @@
     </patterns>
   </rules>
   <rules xsi:type="behavior:AtomicRule" name="LoopToLoopTokenUM" lhs="//@rules.24/@patterns.0" rhs="//@rules.24/@patterns.1" maxDuration="0">
-    <vbles name="iter" type="Int" value="eMotions.parseExp(loop.loopIteration_Loop.specification)"/>
+    <vbles name="iter" type="Int" value="1"/>
     <patterns name="LHS">
       <els xsi:type="behavior:Object" id="loop" outLinks="//@rules.24/@patterns.0/@els.2">
         <classGD href="../syntax/ConcreteSyntax.gcs#//@packagesGD.0/@classesGD.40"/>

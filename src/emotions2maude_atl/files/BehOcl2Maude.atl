@@ -8479,16 +8479,23 @@ lazy rule OperationDoublePDFDistribution{
 		thisModule.counterRandom <- thisModule.counterRandom + 1;
 	}
 }
-
+---- This should have four arguments:
+----	1. expression
+----    2. context
+----    3. model
+----    4. seed
+---- parsePallExp(expression, context, @Model, seed)
 lazy rule OperationParseExp{
 	from
 		opRandom : ATL!OperationCallExp
 	to
 		left : Maude!RecTerm(
-			op <- 'parseExp',
+			op <- 'parsePallExp',
 			type <- thisModule.intSort,
-			args <- Sequence{thisModule.DistributionArguments(opRandom.arguments->first()),add}
-			),		
+			args <- Sequence{thisModule.DistributionArguments(opRandom.arguments->first()),
+				thisModule.DistributionArguments(opRandom.arguments->at(2)),
+				add}
+			),
 		add : Maude!RecTerm(
 			op <- '_+_',
 			type <- thisModule.intSort,
@@ -8530,10 +8537,6 @@ lazy rule DistributionArguments{
 			type <- thisModule.sortModel
 			)
 }
-
-
-
-
 
 lazy rule VarExpVarDecl2Constant{
 	from

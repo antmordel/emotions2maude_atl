@@ -585,7 +585,7 @@ entrypoint rule Initialize(){
 		mainModule : Maude!SModule(
 			name <- thisModule.allBehaviorElements->first().metamodelGD->
 			         			iterate(e;res : String = ''|e.name.toUpper().processSpecModChars().processSpecOpChars())+'BEHAVIOR@',
-			els <- Sequence{mImportEMot,mImportDTime}),
+			els <- Sequence{mImportEMot,mImportDTime,palladioModImportation}),
 		mImportDTime : Maude!ModImportation(
 			mode <- #protecting,
 			imports <- moduleIdModExpDTime,
@@ -603,6 +603,16 @@ entrypoint rule Initialize(){
 			"module" <- sModuleEMot),
 		sModuleEMot : Maude!SModule(
 			name <- 'E-MOTIONS'),
+		palladioModImportation : Maude!ModImportation (
+			mode <- #protecting,
+			imports <- palladioImportation
+			),
+		palladioImportation : Maude!ModuleIdModExp (
+			"module" <- palladioModule
+			),
+		palladioModule : Maude!SModule (
+			name <- 'PALLADIO-EVAL-EXP'
+			),
 		sortModel : Maude!Sort(
 			name <- '@Model',
 			"module" <- sModuleEMot
@@ -8494,7 +8504,11 @@ lazy rule OperationParseExp{
 			type <- thisModule.intSort,
 			args <- Sequence{thisModule.DistributionArguments(opRandom.arguments->first()),
 				thisModule.DistributionArguments(opRandom.arguments->at(2)),
-				add}
+				modelArg, add}
+			),
+		modelArg : Maude!Variable(
+			name <- 'MODEL@',
+			type <- thisModule.sortModel
 			),
 		add : Maude!RecTerm(
 			op <- '_+_',
