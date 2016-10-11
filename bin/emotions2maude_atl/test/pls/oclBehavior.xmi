@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atl="http://www.eclipse.org/gmt/2005/ATL" xmlns:ocl="http://www.eclipse.org/gmt/2005/OCL">
+  <atl:Library location="1:1-208:3" name="oclBehavior">
+    <helpers location="3:1-4:10">
+      <commentsBefore>-- Library Template</commentsBefore>
+      <definition location="3:8-4:9">
+        <feature xsi:type="ocl:Attribute" location="3:13-4:9" name="prodTime">
+          <initExpression xsi:type="ocl:VariableExp" location="4:1-4:9" referredVariable="/1"/>
+          <type xsi:type="ocl:StringType" location="3:26-3:32"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="6:1-7:33">
+      <definition location="6:8-7:32">
+        <feature xsi:type="ocl:Attribute" location="6:13-7:32" name=" hg.pt - 3 + eMotions.random(6)">
+          <initExpression xsi:type="ocl:OperatorCallExp" location="7:2-7:32" operationName="+">
+            <source xsi:type="ocl:OperatorCallExp" location="7:2-7:11" operationName="-">
+              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="7:2-7:7" name="pt">
+                <source xsi:type="ocl:VariableExp" location="7:2-7:4" referredVariable="/2"/>
+              </source>
+              <arguments xsi:type="ocl:IntegerExp" location="7:10-7:11" integerSymbol="3"/>
+            </source>
+            <arguments xsi:type="ocl:OperationCallExp" location="7:14-7:32" operationName="random">
+              <source xsi:type="ocl:VariableExp" location="7:14-7:22" referredVariable="/3"/>
+              <arguments xsi:type="ocl:IntegerExp" location="7:30-7:31" integerSymbol="6"/>
+            </arguments>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="6:49-6:55"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="9:1-10:23">
+      <definition location="9:8-10:22">
+        <feature xsi:type="ocl:Attribute" location="9:13-10:22" name=" eMotions.random(100)">
+          <initExpression xsi:type="ocl:OperationCallExp" location="10:2-10:22" operationName="random">
+            <source xsi:type="ocl:VariableExp" location="10:2-10:10" referredVariable="/4"/>
+            <arguments xsi:type="ocl:IntegerExp" location="10:18-10:21" integerSymbol="100"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="9:39-9:45"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="12:1-13:68">
+      <definition location="12:8-13:67">
+        <feature xsi:type="ocl:Attribute" location="12:13-13:67" name="hg.counter>0 and (c.parts->size() + c.outParts->size())&lt;c.capacity">
+          <initExpression xsi:type="ocl:OperatorCallExp" location="13:1-13:67" operationName="and">
+            <source xsi:type="ocl:OperatorCallExp" location="13:1-13:13" operationName=">">
+              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="13:1-13:11" name="counter">
+                <source xsi:type="ocl:VariableExp" location="13:1-13:3" referredVariable="/5"/>
+              </source>
+              <arguments xsi:type="ocl:IntegerExp" location="13:12-13:13"/>
+            </source>
+            <arguments xsi:type="ocl:OperatorCallExp" location="13:18-13:67" operationName="&lt;">
+              <source xsi:type="ocl:OperatorCallExp" location="13:19-13:55" operationName="+">
+                <source xsi:type="ocl:CollectionOperationCallExp" location="13:19-13:34" operationName="size">
+                  <source xsi:type="ocl:NavigationOrAttributeCallExp" location="13:19-13:26" name="parts">
+                    <source xsi:type="ocl:VariableExp" location="13:19-13:20" referredVariable="/6"/>
+                  </source>
+                </source>
+                <arguments xsi:type="ocl:CollectionOperationCallExp" location="13:37-13:55" operationName="size">
+                  <source xsi:type="ocl:NavigationOrAttributeCallExp" location="13:37-13:47" name="outParts">
+                    <source xsi:type="ocl:VariableExp" location="13:37-13:38" referredVariable="/7"/>
+                  </source>
+                </arguments>
+              </source>
+              <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="13:57-13:67" name="capacity">
+                <source xsi:type="ocl:VariableExp" location="13:57-13:58" referredVariable="/8"/>
+              </arguments>
+            </arguments>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="12:84-12:90"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="15:1-16:16">
+      <definition location="15:8-16:15">
+        <feature xsi:type="ocl:Attribute" location="15:13-16:15" name="hg.counter - 1">
+          <initExpression xsi:type="ocl:OperatorCallExp" location="16:1-16:15" operationName="-">
+            <source xsi:type="ocl:NavigationOrAttributeCallExp" location="16:1-16:11" name="counter">
+              <source xsi:type="ocl:VariableExp" location="16:1-16:3" referredVariable="/9"/>
+            </source>
+            <arguments xsi:type="ocl:IntegerExp" location="16:14-16:15" integerSymbol="1"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="15:32-15:38"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="18:1-19:8">
+      <definition location="18:8-19:7">
+        <feature xsi:type="ocl:Attribute" location="18:13-19:7" name="c.xPos">
+          <initExpression xsi:type="ocl:NavigationOrAttributeCallExp" location="19:1-19:7" name="xPos">
+            <source xsi:type="ocl:VariableExp" location="19:1-19:2" referredVariable="/10"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="18:24-18:30"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="21:1-22:8">
+      <definition location="21:8-22:7">
+        <feature xsi:type="ocl:Attribute" location="21:13-22:7" name="c.yPos">
+          <initExpression xsi:type="ocl:NavigationOrAttributeCallExp" location="22:1-22:7" name="yPos">
+            <source xsi:type="ocl:VariableExp" location="22:1-22:2" referredVariable="/11"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="21:24-21:30"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="24:1-25:25">
+      <definition location="24:8-25:24">
+        <feature xsi:type="ocl:Attribute" location="24:13-25:24" name="rdm &lt; hg.defective_rate">
+          <initExpression xsi:type="ocl:OperatorCallExp" location="25:1-25:24" operationName="&lt;">
+            <source xsi:type="ocl:VariableExp" location="25:1-25:4" referredVariable="/12"/>
+            <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="25:7-25:24" name="defective_rate">
+              <source xsi:type="ocl:VariableExp" location="25:7-25:9" referredVariable="/13"/>
+            </arguments>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="24:41-24:47"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="27:1-28:10">
+      <definition location="27:8-28:9">
+        <feature xsi:type="ocl:Attribute" location="27:13-28:9" name="prodTime">
+          <initExpression xsi:type="ocl:VariableExp" location="28:1-28:9" referredVariable="/14"/>
+          <type xsi:type="ocl:StringType" location="27:26-27:32"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="30:1-31:32">
+      <definition location="30:8-31:31">
+        <feature xsi:type="ocl:Attribute" location="30:13-31:31" name="hg.pt - 3 + eMotions.random(6)">
+          <initExpression xsi:type="ocl:OperatorCallExp" location="31:1-31:31" operationName="+">
+            <source xsi:type="ocl:OperatorCallExp" location="31:1-31:10" operationName="-">
+              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="31:1-31:6" name="pt">
+                <source xsi:type="ocl:VariableExp" location="31:1-31:3" referredVariable="/15"/>
+              </source>
+              <arguments xsi:type="ocl:IntegerExp" location="31:9-31:10" integerSymbol="3"/>
+            </source>
+            <arguments xsi:type="ocl:OperationCallExp" location="31:13-31:31" operationName="random">
+              <source xsi:type="ocl:VariableExp" location="31:13-31:21" referredVariable="/16"/>
+              <arguments xsi:type="ocl:IntegerExp" location="31:29-31:30" integerSymbol="6"/>
+            </arguments>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="30:48-30:54"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="33:1-34:22">
+      <definition location="33:8-34:21">
+        <feature xsi:type="ocl:Attribute" location="33:13-34:21" name="eMotions.random(100)">
+          <initExpression xsi:type="ocl:OperationCallExp" location="34:1-34:21" operationName="random">
+            <source xsi:type="ocl:VariableExp" location="34:1-34:9" referredVariable="/17"/>
+            <arguments xsi:type="ocl:IntegerExp" location="34:17-34:20" integerSymbol="100"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="33:38-33:44"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="36:1-37:68">
+      <definition location="36:8-37:67">
+        <feature xsi:type="ocl:Attribute" location="36:13-37:67" name="hg.counter>0 and (c.parts->size() + c.outParts->size())&lt;c.capacity">
+          <initExpression xsi:type="ocl:OperatorCallExp" location="37:1-37:67" operationName="and">
+            <source xsi:type="ocl:OperatorCallExp" location="37:1-37:13" operationName=">">
+              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="37:1-37:11" name="counter">
+                <source xsi:type="ocl:VariableExp" location="37:1-37:3" referredVariable="/18"/>
+              </source>
+              <arguments xsi:type="ocl:IntegerExp" location="37:12-37:13"/>
+            </source>
+            <arguments xsi:type="ocl:OperatorCallExp" location="37:18-37:67" operationName="&lt;">
+              <source xsi:type="ocl:OperatorCallExp" location="37:19-37:55" operationName="+">
+                <source xsi:type="ocl:CollectionOperationCallExp" location="37:19-37:34" operationName="size">
+                  <source xsi:type="ocl:NavigationOrAttributeCallExp" location="37:19-37:26" name="parts">
+                    <source xsi:type="ocl:VariableExp" location="37:19-37:20" referredVariable="/19"/>
+                  </source>
+                </source>
+                <arguments xsi:type="ocl:CollectionOperationCallExp" location="37:37-37:55" operationName="size">
+                  <source xsi:type="ocl:NavigationOrAttributeCallExp" location="37:37-37:47" name="outParts">
+                    <source xsi:type="ocl:VariableExp" location="37:37-37:38" referredVariable="/20"/>
+                  </source>
+                </arguments>
+              </source>
+              <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="37:57-37:67" name="capacity">
+                <source xsi:type="ocl:VariableExp" location="37:57-37:58" referredVariable="/21"/>
+              </arguments>
+            </arguments>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="36:84-36:90"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="39:1-40:16">
+      <definition location="39:8-40:15">
+        <feature xsi:type="ocl:Attribute" location="39:13-40:15" name="hg.counter - 1">
+          <initExpression xsi:type="ocl:OperatorCallExp" location="40:1-40:15" operationName="-">
+            <source xsi:type="ocl:NavigationOrAttributeCallExp" location="40:1-40:11" name="counter">
+              <source xsi:type="ocl:VariableExp" location="40:1-40:3" referredVariable="/22"/>
+            </source>
+            <arguments xsi:type="ocl:IntegerExp" location="40:14-40:15" integerSymbol="1"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="39:32-39:38"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="42:1-43:8">
+      <definition location="42:8-43:7">
+        <feature xsi:type="ocl:Attribute" location="42:13-43:7" name="c.xPos">
+          <initExpression xsi:type="ocl:NavigationOrAttributeCallExp" location="43:1-43:7" name="xPos">
+            <source xsi:type="ocl:VariableExp" location="43:1-43:2" referredVariable="/23"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="42:24-42:30"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="45:1-46:8">
+      <definition location="45:8-46:7">
+        <feature xsi:type="ocl:Attribute" location="45:13-46:7" name="c.yPos">
+          <initExpression xsi:type="ocl:NavigationOrAttributeCallExp" location="46:1-46:7" name="yPos">
+            <source xsi:type="ocl:VariableExp" location="46:1-46:2" referredVariable="/24"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="45:24-45:30"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="48:1-49:25">
+      <definition location="48:8-49:24">
+        <feature xsi:type="ocl:Attribute" location="48:13-49:24" name="rdm &lt; hg.defective_rate">
+          <initExpression xsi:type="ocl:OperatorCallExp" location="49:1-49:24" operationName="&lt;">
+            <source xsi:type="ocl:VariableExp" location="49:1-49:4" referredVariable="/25"/>
+            <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="49:7-49:24" name="defective_rate">
+              <source xsi:type="ocl:VariableExp" location="49:7-49:9" referredVariable="/26"/>
+            </arguments>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="48:41-48:47"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="51:1-52:9">
+      <definition location="51:8-52:8">
+        <feature xsi:type="ocl:Attribute" location="51:13-52:8" name="c.speed">
+          <initExpression xsi:type="ocl:NavigationOrAttributeCallExp" location="52:1-52:8" name="speed">
+            <source xsi:type="ocl:VariableExp" location="52:1-52:2" referredVariable="/27"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="51:25-51:31"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="54:1-55:3">
+      <definition location="54:8-55:2">
+        <feature xsi:type="ocl:Attribute" location="54:13-55:2" name="0">
+          <initExpression xsi:type="ocl:IntegerExp" location="55:1-55:2"/>
+          <type xsi:type="ocl:StringType" location="54:19-54:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="57:1-58:303">
+      <definition location="57:8-58:302">
+        <feature xsi:type="ocl:Attribute" location="57:13-58:302" name="(t.parts->size() &lt; t.capacity) and (not((t.parts -> size() = (t.capacity - 1)) and ( (t.parts -> forAll(e|e.oclIsKindOf(Handle)) and p.oclIsKindOf(Handle)) or (t.parts -> forAll(e|e.oclIsKindOf(Head)) and p.oclIsKindOf(Head)) or (t.parts -> forAll(e|e.oclIsKindOf(Hammer))and p.oclIsKindOf(Hammer)))))">
+          <initExpression xsi:type="ocl:OperatorCallExp" location="58:1-58:302" operationName="and">
+            <source xsi:type="ocl:OperatorCallExp" location="58:2-58:30" operationName="&lt;">
+              <source xsi:type="ocl:CollectionOperationCallExp" location="58:2-58:17" operationName="size">
+                <source xsi:type="ocl:NavigationOrAttributeCallExp" location="58:2-58:9" name="parts">
+                  <source xsi:type="ocl:VariableExp" location="58:2-58:3" referredVariable="/28"/>
+                </source>
+              </source>
+              <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="58:20-58:30" name="capacity">
+                <source xsi:type="ocl:VariableExp" location="58:20-58:21" referredVariable="/29"/>
+              </arguments>
+            </source>
+            <arguments xsi:type="ocl:OperatorCallExp" location="58:37-58:301" operationName="not">
+              <source xsi:type="ocl:OperatorCallExp" location="58:41-58:300" operationName="and">
+                <source xsi:type="ocl:OperatorCallExp" location="58:42-58:78" operationName="=">
+                  <source xsi:type="ocl:CollectionOperationCallExp" location="58:42-58:59" operationName="size">
+                    <source xsi:type="ocl:NavigationOrAttributeCallExp" location="58:42-58:49" name="parts">
+                      <source xsi:type="ocl:VariableExp" location="58:42-58:43" referredVariable="/30"/>
+                    </source>
+                  </source>
+                  <arguments xsi:type="ocl:OperatorCallExp" location="58:63-58:77" operationName="-">
+                    <source xsi:type="ocl:NavigationOrAttributeCallExp" location="58:63-58:73" name="capacity">
+                      <source xsi:type="ocl:VariableExp" location="58:63-58:64" referredVariable="/31"/>
+                    </source>
+                    <arguments xsi:type="ocl:IntegerExp" location="58:76-58:77" integerSymbol="1"/>
+                  </arguments>
+                </source>
+                <arguments xsi:type="ocl:OperatorCallExp" location="58:86-58:299" operationName="or">
+                  <source xsi:type="ocl:OperatorCallExp" location="58:86-58:226" operationName="or">
+                    <source xsi:type="ocl:OperatorCallExp" location="58:87-58:155" operationName="and">
+                      <source xsi:type="ocl:IteratorExp" location="58:87-58:129" name="forAll">
+                        <source xsi:type="ocl:NavigationOrAttributeCallExp" location="58:87-58:94" name="parts">
+                          <source xsi:type="ocl:VariableExp" location="58:87-58:88" referredVariable="/32"/>
+                        </source>
+                        <body xsi:type="ocl:OperationCallExp" location="58:107-58:128" operationName="oclIsKindOf">
+                          <source xsi:type="ocl:VariableExp" location="58:107-58:108" referredVariable="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@source/@source/@iterators.0"/>
+                          <arguments xsi:type="ocl:VariableExp" location="58:121-58:127" referredVariable="/33"/>
+                        </body>
+                        <iterators location="58:105-58:106" varName="e" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@source/@source/@body/@source"/>
+                      </source>
+                      <arguments xsi:type="ocl:OperationCallExp" location="58:134-58:155" operationName="oclIsKindOf">
+                        <source xsi:type="ocl:VariableExp" location="58:134-58:135" referredVariable="/34"/>
+                        <arguments xsi:type="ocl:VariableExp" location="58:148-58:154" referredVariable="/35"/>
+                      </arguments>
+                    </source>
+                    <arguments xsi:type="ocl:OperatorCallExp" location="58:161-58:225" operationName="and">
+                      <source xsi:type="ocl:IteratorExp" location="58:161-58:201" name="forAll">
+                        <source xsi:type="ocl:NavigationOrAttributeCallExp" location="58:161-58:168" name="parts">
+                          <source xsi:type="ocl:VariableExp" location="58:161-58:162" referredVariable="/36"/>
+                        </source>
+                        <body xsi:type="ocl:OperationCallExp" location="58:181-58:200" operationName="oclIsKindOf">
+                          <source xsi:type="ocl:VariableExp" location="58:181-58:182" referredVariable="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@arguments.0/@source/@iterators.0"/>
+                          <arguments xsi:type="ocl:VariableExp" location="58:195-58:199" referredVariable="/37"/>
+                        </body>
+                        <iterators location="58:179-58:180" varName="e" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@arguments.0/@source/@body/@source"/>
+                      </source>
+                      <arguments xsi:type="ocl:OperationCallExp" location="58:206-58:225" operationName="oclIsKindOf">
+                        <source xsi:type="ocl:VariableExp" location="58:206-58:207" referredVariable="/38"/>
+                        <arguments xsi:type="ocl:VariableExp" location="58:220-58:224" referredVariable="/39"/>
+                      </arguments>
+                    </arguments>
+                  </source>
+                  <arguments xsi:type="ocl:OperatorCallExp" location="58:231-58:298" operationName="and">
+                    <source xsi:type="ocl:IteratorExp" location="58:231-58:273" name="forAll">
+                      <source xsi:type="ocl:NavigationOrAttributeCallExp" location="58:231-58:238" name="parts">
+                        <source xsi:type="ocl:VariableExp" location="58:231-58:232" referredVariable="/40"/>
+                      </source>
+                      <body xsi:type="ocl:OperationCallExp" location="58:251-58:272" operationName="oclIsKindOf">
+                        <source xsi:type="ocl:VariableExp" location="58:251-58:252" referredVariable="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@arguments.0/@source/@iterators.0"/>
+                        <arguments xsi:type="ocl:VariableExp" location="58:265-58:271" referredVariable="/41"/>
+                      </body>
+                      <iterators location="58:249-58:250" varName="e" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@arguments.0/@source/@body/@source"/>
+                    </source>
+                    <arguments xsi:type="ocl:OperationCallExp" location="58:277-58:298" operationName="oclIsKindOf">
+                      <source xsi:type="ocl:VariableExp" location="58:277-58:278" referredVariable="/42"/>
+                      <arguments xsi:type="ocl:VariableExp" location="58:291-58:297" referredVariable="/43"/>
+                    </arguments>
+                  </arguments>
+                </arguments>
+              </source>
+            </arguments>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="57:319-57:325"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="60:1-61:8">
+      <definition location="60:8-61:7">
+        <feature xsi:type="ocl:Attribute" location="60:13-61:7" name="t.xPos">
+          <initExpression xsi:type="ocl:NavigationOrAttributeCallExp" location="61:1-61:7" name="xPos">
+            <source xsi:type="ocl:VariableExp" location="61:1-61:2" referredVariable="/44"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="60:24-60:30"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="63:1-64:8">
+      <definition location="63:8-64:7">
+        <feature xsi:type="ocl:Attribute" location="63:13-64:7" name="t.yPos">
+          <initExpression xsi:type="ocl:NavigationOrAttributeCallExp" location="64:1-64:7" name="yPos">
+            <source xsi:type="ocl:VariableExp" location="64:1-64:2" referredVariable="/45"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="63:24-63:30"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="66:1-67:10">
+      <definition location="66:8-67:9">
+        <feature xsi:type="ocl:Attribute" location="66:13-67:9" name="prodTime">
+          <initExpression xsi:type="ocl:VariableExp" location="67:1-67:9" referredVariable="/46"/>
+          <type xsi:type="ocl:StringType" location="66:26-66:32"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="69:1-70:31">
+      <definition location="69:8-70:30">
+        <feature xsi:type="ocl:Attribute" location="69:13-70:30" name="a.pt - 3 + eMotions.random(6)">
+          <initExpression xsi:type="ocl:OperatorCallExp" location="70:1-70:30" operationName="+">
+            <source xsi:type="ocl:OperatorCallExp" location="70:1-70:9" operationName="-">
+              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="70:1-70:5" name="pt">
+                <source xsi:type="ocl:VariableExp" location="70:1-70:2" referredVariable="/47"/>
+              </source>
+              <arguments xsi:type="ocl:IntegerExp" location="70:8-70:9" integerSymbol="3"/>
+            </source>
+            <arguments xsi:type="ocl:OperationCallExp" location="70:12-70:30" operationName="random">
+              <source xsi:type="ocl:VariableExp" location="70:12-70:20" referredVariable="/48"/>
+              <arguments xsi:type="ocl:IntegerExp" location="70:28-70:29" integerSymbol="6"/>
+            </arguments>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="69:47-69:53"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="72:1-73:22">
+      <definition location="72:8-73:21">
+        <feature xsi:type="ocl:Attribute" location="72:13-73:21" name="eMotions.random(100)">
+          <initExpression xsi:type="ocl:OperationCallExp" location="73:1-73:21" operationName="random">
+            <source xsi:type="ocl:VariableExp" location="73:1-73:9" referredVariable="/49"/>
+            <arguments xsi:type="ocl:IntegerExp" location="73:17-73:20" integerSymbol="100"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="72:38-72:44"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="75:1-76:8">
+      <definition location="75:8-76:7">
+        <feature xsi:type="ocl:Attribute" location="75:13-76:7" name="c.xPos">
+          <initExpression xsi:type="ocl:NavigationOrAttributeCallExp" location="76:1-76:7" name="xPos">
+            <source xsi:type="ocl:VariableExp" location="76:1-76:2" referredVariable="/50"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="75:24-75:30"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="78:1-79:8">
+      <definition location="78:8-79:7">
+        <feature xsi:type="ocl:Attribute" location="78:13-79:7" name="c.yPos">
+          <initExpression xsi:type="ocl:NavigationOrAttributeCallExp" location="79:1-79:7" name="yPos">
+            <source xsi:type="ocl:VariableExp" location="79:1-79:2" referredVariable="/51"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="78:24-78:30"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="81:1-82:56">
+      <definition location="81:8-82:55">
+        <feature xsi:type="ocl:Attribute" location="81:13-82:55" name="ha.defective or he.defective or rdm &lt; a.defective_rate">
+          <initExpression xsi:type="ocl:OperatorCallExp" location="82:1-82:55" operationName="or">
+            <source xsi:type="ocl:OperatorCallExp" location="82:1-82:29" operationName="or">
+              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="82:1-82:13" name="defective">
+                <source xsi:type="ocl:VariableExp" location="82:1-82:3" referredVariable="/52"/>
+              </source>
+              <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="82:17-82:29" name="defective">
+                <source xsi:type="ocl:VariableExp" location="82:17-82:19" referredVariable="/53"/>
+              </arguments>
+            </source>
+            <arguments xsi:type="ocl:OperatorCallExp" location="82:33-82:55" operationName="&lt;">
+              <source xsi:type="ocl:VariableExp" location="82:33-82:36" referredVariable="/54"/>
+              <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="82:39-82:55" name="defective_rate">
+                <source xsi:type="ocl:VariableExp" location="82:39-82:40" referredVariable="/55"/>
+              </arguments>
+            </arguments>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="81:72-81:78"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="84:1-85:13">
+      <definition location="84:8-85:12">
+        <feature xsi:type="ocl:Attribute" location="84:13-85:12" name="collectTime">
+          <initExpression xsi:type="ocl:VariableExp" location="85:1-85:12" referredVariable="/56"/>
+          <type xsi:type="ocl:StringType" location="84:29-84:35"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="87:1-88:52">
+      <definition location="87:8-88:51">
+        <feature xsi:type="ocl:Attribute" location="87:13-88:51" name=" (h.xPos-u.xPos).abs() + (h.yPos-u.yPos).abs() + 1">
+          <initExpression xsi:type="ocl:OperatorCallExp" location="88:2-88:51" operationName="+">
+            <source xsi:type="ocl:OperatorCallExp" location="88:2-88:47" operationName="+">
+              <source xsi:type="ocl:OperationCallExp" location="88:2-88:23" operationName="abs">
+                <source xsi:type="ocl:OperatorCallExp" location="88:3-88:16" operationName="-">
+                  <source xsi:type="ocl:NavigationOrAttributeCallExp" location="88:3-88:9" name="xPos">
+                    <source xsi:type="ocl:VariableExp" location="88:3-88:4" referredVariable="/57"/>
+                  </source>
+                  <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="88:10-88:16" name="xPos">
+                    <source xsi:type="ocl:VariableExp" location="88:10-88:11" referredVariable="/58"/>
+                  </arguments>
+                </source>
+              </source>
+              <arguments xsi:type="ocl:OperationCallExp" location="88:26-88:47" operationName="abs">
+                <source xsi:type="ocl:OperatorCallExp" location="88:27-88:40" operationName="-">
+                  <source xsi:type="ocl:NavigationOrAttributeCallExp" location="88:27-88:33" name="yPos">
+                    <source xsi:type="ocl:VariableExp" location="88:27-88:28" referredVariable="/59"/>
+                  </source>
+                  <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="88:34-88:40" name="yPos">
+                    <source xsi:type="ocl:VariableExp" location="88:34-88:35" referredVariable="/60"/>
+                  </arguments>
+                </source>
+              </arguments>
+            </source>
+            <arguments xsi:type="ocl:IntegerExp" location="88:50-88:51" integerSymbol="1"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="87:68-87:74"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="90:1-91:24">
+      <definition location="90:8-91:23">
+        <feature xsi:type="ocl:Attribute" location="90:13-91:23" name="h = t.parts -> first()">
+          <initExpression xsi:type="ocl:OperatorCallExp" location="91:1-91:23" operationName="=">
+            <source xsi:type="ocl:VariableExp" location="91:1-91:2" referredVariable="/61"/>
+            <arguments xsi:type="ocl:CollectionOperationCallExp" location="91:5-91:23" operationName="first">
+              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="91:5-91:12" name="parts">
+                <source xsi:type="ocl:VariableExp" location="91:5-91:6" referredVariable="/62"/>
+              </source>
+            </arguments>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="90:40-90:46"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="93:1-94:38">
+      <definition location="93:8-94:37">
+        <feature xsi:type="ocl:Attribute" location="93:13-94:37" name="t.parts->excluding(t.parts->first())">
+          <initExpression xsi:type="ocl:CollectionOperationCallExp" location="94:1-94:37" operationName="excluding">
+            <source xsi:type="ocl:NavigationOrAttributeCallExp" location="94:1-94:8" name="parts">
+              <source xsi:type="ocl:VariableExp" location="94:1-94:2" referredVariable="/63"/>
+            </source>
+            <arguments xsi:type="ocl:CollectionOperationCallExp" location="94:20-94:36" operationName="first">
+              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="94:20-94:27" name="parts">
+                <source xsi:type="ocl:VariableExp" location="94:20-94:21" referredVariable="/64"/>
+              </source>
+            </arguments>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="93:54-93:60"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="96:1-97:22">
+      <definition location="96:8-97:21">
+        <feature xsi:type="ocl:Attribute" location="96:13-97:21" name="u.parts -> append(h)">
+          <initExpression xsi:type="ocl:CollectionOperationCallExp" location="97:1-97:21" operationName="append">
+            <source xsi:type="ocl:NavigationOrAttributeCallExp" location="97:1-97:8" name="parts">
+              <source xsi:type="ocl:VariableExp" location="97:1-97:2" referredVariable="/65"/>
+            </source>
+            <arguments xsi:type="ocl:VariableExp" location="97:19-97:20" referredVariable="/66"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="96:38-96:44"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="99:1-100:8">
+      <definition location="99:8-100:7">
+        <feature xsi:type="ocl:Attribute" location="99:13-100:7" name="h.xPos">
+          <initExpression xsi:type="ocl:NavigationOrAttributeCallExp" location="100:1-100:7" name="xPos">
+            <source xsi:type="ocl:VariableExp" location="100:1-100:2" referredVariable="/67"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="99:24-99:30"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="102:1-103:8">
+      <definition location="102:8-103:7">
+        <feature xsi:type="ocl:Attribute" location="102:13-103:7" name="h.yPos">
+          <initExpression xsi:type="ocl:NavigationOrAttributeCallExp" location="103:1-103:7" name="yPos">
+            <source xsi:type="ocl:VariableExp" location="103:1-103:2" referredVariable="/68"/>
+          </initExpression>
+          <type xsi:type="ocl:StringType" location="102:24-102:30"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="105:1-106:3">
+      <definition location="105:8-106:2">
+        <feature xsi:type="ocl:Attribute" location="105:13-106:2" name="0">
+          <initExpression xsi:type="ocl:IntegerExp" location="106:1-106:2"/>
+          <type xsi:type="ocl:StringType" location="105:19-105:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="108:1-109:4">
+      <definition location="108:8-109:3">
+        <feature xsi:type="ocl:Attribute" location="108:13-109:3" name="40">
+          <initExpression xsi:type="ocl:IntegerExp" location="109:1-109:3" integerSymbol="40"/>
+          <type xsi:type="ocl:StringType" location="108:20-108:26"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="111:1-112:3">
+      <definition location="111:8-112:2">
+        <feature xsi:type="ocl:Attribute" location="111:13-112:2" name="0">
+          <initExpression xsi:type="ocl:IntegerExp" location="112:1-112:2"/>
+          <type xsi:type="ocl:StringType" location="111:19-111:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="114:1-115:3">
+      <definition location="114:8-115:2">
+        <feature xsi:type="ocl:Attribute" location="114:13-115:2" name="2">
+          <initExpression xsi:type="ocl:IntegerExp" location="115:1-115:2" integerSymbol="2"/>
+          <type xsi:type="ocl:StringType" location="114:19-114:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="117:1-118:4">
+      <definition location="117:8-118:3">
+        <feature xsi:type="ocl:Attribute" location="117:13-118:3" name="40">
+          <initExpression xsi:type="ocl:IntegerExp" location="118:1-118:3" integerSymbol="40"/>
+          <type xsi:type="ocl:StringType" location="117:20-117:26"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="120:1-121:3">
+      <definition location="120:8-121:2">
+        <feature xsi:type="ocl:Attribute" location="120:13-121:2" name="2">
+          <initExpression xsi:type="ocl:IntegerExp" location="121:1-121:2" integerSymbol="2"/>
+          <type xsi:type="ocl:StringType" location="120:19-120:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="123:1-124:4">
+      <definition location="123:8-124:3">
+        <feature xsi:type="ocl:Attribute" location="123:13-124:3" name="40">
+          <initExpression xsi:type="ocl:IntegerExp" location="124:1-124:3" integerSymbol="40"/>
+          <type xsi:type="ocl:StringType" location="123:20-123:26"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="126:1-127:3">
+      <definition location="126:8-127:2">
+        <feature xsi:type="ocl:Attribute" location="126:13-127:2" name="0">
+          <initExpression xsi:type="ocl:IntegerExp" location="127:1-127:2"/>
+          <type xsi:type="ocl:StringType" location="126:19-126:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="129:1-130:3">
+      <definition location="129:8-130:2">
+        <feature xsi:type="ocl:Attribute" location="129:13-130:2" name="0">
+          <initExpression xsi:type="ocl:IntegerExp" location="130:1-130:2"/>
+          <type xsi:type="ocl:StringType" location="129:19-129:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="132:1-133:4">
+      <definition location="132:8-133:3">
+        <feature xsi:type="ocl:Attribute" location="132:13-133:3" name="40">
+          <initExpression xsi:type="ocl:IntegerExp" location="133:1-133:3" integerSymbol="40"/>
+          <type xsi:type="ocl:StringType" location="132:20-132:26"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="135:1-136:3">
+      <definition location="135:8-136:2">
+        <feature xsi:type="ocl:Attribute" location="135:13-136:2" name="2">
+          <initExpression xsi:type="ocl:IntegerExp" location="136:1-136:2" integerSymbol="2"/>
+          <type xsi:type="ocl:StringType" location="135:19-135:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="138:1-139:3">
+      <definition location="138:8-139:2">
+        <feature xsi:type="ocl:Attribute" location="138:13-139:2" name="2">
+          <initExpression xsi:type="ocl:IntegerExp" location="139:1-139:2" integerSymbol="2"/>
+          <type xsi:type="ocl:StringType" location="138:19-138:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="141:1-142:3">
+      <definition location="141:8-142:2">
+        <feature xsi:type="ocl:Attribute" location="141:13-142:2" name="2">
+          <initExpression xsi:type="ocl:IntegerExp" location="142:1-142:2" integerSymbol="2"/>
+          <type xsi:type="ocl:StringType" location="141:19-141:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="144:1-145:4">
+      <definition location="144:8-145:3">
+        <feature xsi:type="ocl:Attribute" location="144:13-145:3" name="15">
+          <initExpression xsi:type="ocl:IntegerExp" location="145:1-145:3" integerSymbol="15"/>
+          <type xsi:type="ocl:StringType" location="144:20-144:26"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="147:1-148:3">
+      <definition location="147:8-148:2">
+        <feature xsi:type="ocl:Attribute" location="147:13-148:2" name="4">
+          <initExpression xsi:type="ocl:IntegerExp" location="148:1-148:2" integerSymbol="4"/>
+          <type xsi:type="ocl:StringType" location="147:19-147:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="150:1-151:3">
+      <definition location="150:8-151:2">
+        <feature xsi:type="ocl:Attribute" location="150:13-151:2" name="2">
+          <initExpression xsi:type="ocl:IntegerExp" location="151:1-151:2" integerSymbol="2"/>
+          <type xsi:type="ocl:StringType" location="150:19-150:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="153:1-154:3">
+      <definition location="153:8-154:2">
+        <feature xsi:type="ocl:Attribute" location="153:13-154:2" name="0">
+          <initExpression xsi:type="ocl:IntegerExp" location="154:1-154:2"/>
+          <type xsi:type="ocl:StringType" location="153:19-153:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="156:1-157:4">
+      <definition location="156:8-157:3">
+        <feature xsi:type="ocl:Attribute" location="156:13-157:3" name="15">
+          <initExpression xsi:type="ocl:IntegerExp" location="157:1-157:3" integerSymbol="15"/>
+          <type xsi:type="ocl:StringType" location="156:20-156:26"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="159:1-160:3">
+      <definition location="159:8-160:2">
+        <feature xsi:type="ocl:Attribute" location="159:13-160:2" name="4">
+          <initExpression xsi:type="ocl:IntegerExp" location="160:1-160:2" integerSymbol="4"/>
+          <type xsi:type="ocl:StringType" location="159:19-159:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="162:1-163:3">
+      <definition location="162:8-163:2">
+        <feature xsi:type="ocl:Attribute" location="162:13-163:2" name="4">
+          <initExpression xsi:type="ocl:IntegerExp" location="163:1-163:2" integerSymbol="4"/>
+          <type xsi:type="ocl:StringType" location="162:19-162:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="165:1-166:3">
+      <definition location="165:8-166:2">
+        <feature xsi:type="ocl:Attribute" location="165:13-166:2" name="1">
+          <initExpression xsi:type="ocl:IntegerExp" location="166:1-166:2" integerSymbol="1"/>
+          <type xsi:type="ocl:StringType" location="165:19-165:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="168:1-169:3">
+      <definition location="168:8-169:2">
+        <feature xsi:type="ocl:Attribute" location="168:13-169:2" name="4">
+          <initExpression xsi:type="ocl:IntegerExp" location="169:1-169:2" integerSymbol="4"/>
+          <type xsi:type="ocl:StringType" location="168:19-168:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="171:1-172:3">
+      <definition location="171:8-172:2">
+        <feature xsi:type="ocl:Attribute" location="171:13-172:2" name="6">
+          <initExpression xsi:type="ocl:IntegerExp" location="172:1-172:2" integerSymbol="6"/>
+          <type xsi:type="ocl:StringType" location="171:19-171:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="174:1-175:3">
+      <definition location="174:8-175:2">
+        <feature xsi:type="ocl:Attribute" location="174:13-175:2" name="1">
+          <initExpression xsi:type="ocl:IntegerExp" location="175:1-175:2" integerSymbol="1"/>
+          <type xsi:type="ocl:StringType" location="174:19-174:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="177:1-178:4">
+      <definition location="177:8-178:3">
+        <feature xsi:type="ocl:Attribute" location="177:13-178:3" name="40">
+          <initExpression xsi:type="ocl:IntegerExp" location="178:1-178:3" integerSymbol="40"/>
+          <type xsi:type="ocl:StringType" location="177:20-177:26"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="180:1-181:3">
+      <definition location="180:8-181:2">
+        <feature xsi:type="ocl:Attribute" location="180:13-181:2" name="1">
+          <initExpression xsi:type="ocl:IntegerExp" location="181:1-181:2" integerSymbol="1"/>
+          <type xsi:type="ocl:StringType" location="180:19-180:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="183:1-184:3">
+      <definition location="183:8-184:2">
+        <feature xsi:type="ocl:Attribute" location="183:13-184:2" name="8">
+          <initExpression xsi:type="ocl:IntegerExp" location="184:1-184:2" integerSymbol="8"/>
+          <type xsi:type="ocl:StringType" location="183:19-183:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="186:1-187:3">
+      <definition location="186:8-187:2">
+        <feature xsi:type="ocl:Attribute" location="186:13-187:2" name="1">
+          <initExpression xsi:type="ocl:IntegerExp" location="187:1-187:2" integerSymbol="1"/>
+          <type xsi:type="ocl:StringType" location="186:19-186:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="189:1-190:4">
+      <definition location="189:8-190:3">
+        <feature xsi:type="ocl:Attribute" location="189:13-190:3" name="15">
+          <initExpression xsi:type="ocl:IntegerExp" location="190:1-190:3" integerSymbol="15"/>
+          <type xsi:type="ocl:StringType" location="189:20-189:26"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="192:1-193:3">
+      <definition location="192:8-193:2">
+        <feature xsi:type="ocl:Attribute" location="192:13-193:2" name="4">
+          <initExpression xsi:type="ocl:IntegerExp" location="193:1-193:2" integerSymbol="4"/>
+          <type xsi:type="ocl:StringType" location="192:19-192:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="195:1-196:4">
+      <definition location="195:8-196:3">
+        <feature xsi:type="ocl:Attribute" location="195:13-196:3" name="10">
+          <initExpression xsi:type="ocl:IntegerExp" location="196:1-196:3" integerSymbol="10"/>
+          <type xsi:type="ocl:StringType" location="195:20-195:26"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="198:1-199:3">
+      <definition location="198:8-199:2">
+        <feature xsi:type="ocl:Attribute" location="198:13-199:2" name="1">
+          <initExpression xsi:type="ocl:IntegerExp" location="199:1-199:2" integerSymbol="1"/>
+          <type xsi:type="ocl:StringType" location="198:19-198:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="201:1-202:3">
+      <definition location="201:8-202:2">
+        <feature xsi:type="ocl:Attribute" location="201:13-202:2" name="4">
+          <initExpression xsi:type="ocl:IntegerExp" location="202:1-202:2" integerSymbol="4"/>
+          <type xsi:type="ocl:StringType" location="201:19-201:25"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="204:1-205:4">
+      <definition location="204:8-205:3">
+        <feature xsi:type="ocl:Attribute" location="204:13-205:3" name="10">
+          <initExpression xsi:type="ocl:IntegerExp" location="205:1-205:3" integerSymbol="10"/>
+          <type xsi:type="ocl:StringType" location="204:20-204:26"/>
+        </feature>
+      </definition>
+    </helpers>
+    <helpers location="207:1-208:3">
+      <definition location="207:8-208:2">
+        <feature xsi:type="ocl:Attribute" location="207:13-208:2" name="3">
+          <initExpression xsi:type="ocl:IntegerExp" location="208:1-208:2" integerSymbol="3"/>
+          <type xsi:type="ocl:StringType" location="207:19-207:25"/>
+        </feature>
+      </definition>
+    </helpers>
+  </atl:Library>
+  <ocl:VariableDeclaration location="4:1-4:9" varName="prodTime" variableExp="/0/@helpers.0/@definition/@feature/@initExpression"/>
+  <ocl:VariableDeclaration location="7:2-7:4" varName="hg" variableExp="/0/@helpers.1/@definition/@feature/@initExpression/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="7:14-7:22" varName="eMotions" variableExp="/0/@helpers.1/@definition/@feature/@initExpression/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="10:2-10:10" varName="eMotions" variableExp="/0/@helpers.2/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="13:1-13:3" varName="hg" variableExp="/0/@helpers.3/@definition/@feature/@initExpression/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="13:19-13:20" varName="c" variableExp="/0/@helpers.3/@definition/@feature/@initExpression/@arguments.0/@source/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="13:37-13:38" varName="c" variableExp="/0/@helpers.3/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@source"/>
+  <ocl:VariableDeclaration location="13:57-13:58" varName="c" variableExp="/0/@helpers.3/@definition/@feature/@initExpression/@arguments.0/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="16:1-16:3" varName="hg" variableExp="/0/@helpers.4/@definition/@feature/@initExpression/@source/@source"/>
+  <ocl:VariableDeclaration location="19:1-19:2" varName="c" variableExp="/0/@helpers.5/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="22:1-22:2" varName="c" variableExp="/0/@helpers.6/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="25:1-25:4" varName="rdm" variableExp="/0/@helpers.7/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="25:7-25:9" varName="hg" variableExp="/0/@helpers.7/@definition/@feature/@initExpression/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="28:1-28:9" varName="prodTime" variableExp="/0/@helpers.8/@definition/@feature/@initExpression"/>
+  <ocl:VariableDeclaration location="31:1-31:3" varName="hg" variableExp="/0/@helpers.9/@definition/@feature/@initExpression/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="31:13-31:21" varName="eMotions" variableExp="/0/@helpers.9/@definition/@feature/@initExpression/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="34:1-34:9" varName="eMotions" variableExp="/0/@helpers.10/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="37:1-37:3" varName="hg" variableExp="/0/@helpers.11/@definition/@feature/@initExpression/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="37:19-37:20" varName="c" variableExp="/0/@helpers.11/@definition/@feature/@initExpression/@arguments.0/@source/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="37:37-37:38" varName="c" variableExp="/0/@helpers.11/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@source"/>
+  <ocl:VariableDeclaration location="37:57-37:58" varName="c" variableExp="/0/@helpers.11/@definition/@feature/@initExpression/@arguments.0/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="40:1-40:3" varName="hg" variableExp="/0/@helpers.12/@definition/@feature/@initExpression/@source/@source"/>
+  <ocl:VariableDeclaration location="43:1-43:2" varName="c" variableExp="/0/@helpers.13/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="46:1-46:2" varName="c" variableExp="/0/@helpers.14/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="49:1-49:4" varName="rdm" variableExp="/0/@helpers.15/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="49:7-49:9" varName="hg" variableExp="/0/@helpers.15/@definition/@feature/@initExpression/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="52:1-52:2" varName="c" variableExp="/0/@helpers.16/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="58:2-58:3" varName="t" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@source/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="58:20-58:21" varName="t" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@source/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="58:42-58:43" varName="t" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@source/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="58:63-58:64" varName="t" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@source/@arguments.0/@source/@source"/>
+  <ocl:VariableDeclaration location="58:87-58:88" varName="t" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@source/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="58:121-58:127" varName="Handle" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@source/@source/@body/@arguments.0"/>
+  <ocl:VariableDeclaration location="58:134-58:135" varName="p" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@source/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="58:148-58:154" varName="Handle" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@source/@arguments.0/@arguments.0"/>
+  <ocl:VariableDeclaration location="58:161-58:162" varName="t" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@arguments.0/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="58:195-58:199" varName="Head" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@arguments.0/@source/@body/@arguments.0"/>
+  <ocl:VariableDeclaration location="58:206-58:207" varName="p" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@arguments.0/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="58:220-58:224" varName="Head" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@source/@arguments.0/@arguments.0/@arguments.0"/>
+  <ocl:VariableDeclaration location="58:231-58:232" varName="t" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@arguments.0/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="58:265-58:271" varName="Hammer" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@arguments.0/@source/@body/@arguments.0"/>
+  <ocl:VariableDeclaration location="58:277-58:278" varName="p" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@arguments.0/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="58:291-58:297" varName="Hammer" variableExp="/0/@helpers.18/@definition/@feature/@initExpression/@arguments.0/@source/@arguments.0/@arguments.0/@arguments.0/@arguments.0"/>
+  <ocl:VariableDeclaration location="61:1-61:2" varName="t" variableExp="/0/@helpers.19/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="64:1-64:2" varName="t" variableExp="/0/@helpers.20/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="67:1-67:9" varName="prodTime" variableExp="/0/@helpers.21/@definition/@feature/@initExpression"/>
+  <ocl:VariableDeclaration location="70:1-70:2" varName="a" variableExp="/0/@helpers.22/@definition/@feature/@initExpression/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="70:12-70:20" varName="eMotions" variableExp="/0/@helpers.22/@definition/@feature/@initExpression/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="73:1-73:9" varName="eMotions" variableExp="/0/@helpers.23/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="76:1-76:2" varName="c" variableExp="/0/@helpers.24/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="79:1-79:2" varName="c" variableExp="/0/@helpers.25/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="82:1-82:3" varName="ha" variableExp="/0/@helpers.26/@definition/@feature/@initExpression/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="82:17-82:19" varName="he" variableExp="/0/@helpers.26/@definition/@feature/@initExpression/@source/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="82:33-82:36" varName="rdm" variableExp="/0/@helpers.26/@definition/@feature/@initExpression/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="82:39-82:40" varName="a" variableExp="/0/@helpers.26/@definition/@feature/@initExpression/@arguments.0/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="85:1-85:12" varName="collectTime" variableExp="/0/@helpers.27/@definition/@feature/@initExpression"/>
+  <ocl:VariableDeclaration location="88:3-88:4" varName="h" variableExp="/0/@helpers.28/@definition/@feature/@initExpression/@source/@source/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="88:10-88:11" varName="u" variableExp="/0/@helpers.28/@definition/@feature/@initExpression/@source/@source/@source/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="88:27-88:28" varName="h" variableExp="/0/@helpers.28/@definition/@feature/@initExpression/@source/@arguments.0/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="88:34-88:35" varName="u" variableExp="/0/@helpers.28/@definition/@feature/@initExpression/@source/@arguments.0/@source/@arguments.0/@source"/>
+  <ocl:VariableDeclaration location="91:1-91:2" varName="h" variableExp="/0/@helpers.29/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="91:5-91:6" varName="t" variableExp="/0/@helpers.29/@definition/@feature/@initExpression/@arguments.0/@source/@source"/>
+  <ocl:VariableDeclaration location="94:1-94:2" varName="t" variableExp="/0/@helpers.30/@definition/@feature/@initExpression/@source/@source"/>
+  <ocl:VariableDeclaration location="94:20-94:21" varName="t" variableExp="/0/@helpers.30/@definition/@feature/@initExpression/@arguments.0/@source/@source"/>
+  <ocl:VariableDeclaration location="97:1-97:2" varName="u" variableExp="/0/@helpers.31/@definition/@feature/@initExpression/@source/@source"/>
+  <ocl:VariableDeclaration location="97:19-97:20" varName="h" variableExp="/0/@helpers.31/@definition/@feature/@initExpression/@arguments.0"/>
+  <ocl:VariableDeclaration location="100:1-100:2" varName="h" variableExp="/0/@helpers.32/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="103:1-103:2" varName="h" variableExp="/0/@helpers.33/@definition/@feature/@initExpression/@source"/>
+</xmi:XMI>
