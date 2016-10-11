@@ -12,4 +12,8 @@ It should be done with a new ATL configuration file.
 *Legacy*: Runs in 20122ms
 *Current*:
     - commit [cbfd818](https://github.com/antmordel/emotions2maude_atl/commit/cbfd818d4b78fd3c8cd3b472e4e436ec4c2c6db8): Does not work due to `oid` operator.
-    - commit [](): Working and in time 21854ms, still without modifications.
+    - commit [eff4ecc](https://github.com/antmordel/emotions2maude_atl/commit/eff4ecc830e03f04225cc780d883ca54044ba504): Working and in time 21854ms, still without modifications.
+
+### Palladio
+
+1. Run the...
